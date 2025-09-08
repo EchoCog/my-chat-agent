@@ -8,6 +8,7 @@
     "start": "vite dev",
     "deploy": "vite build && wrangler deploy",
     "test": "vitest",
+    "verify": "node scripts/verify-chat-agent.mjs",
     "types": "wrangler types",
     "format": "prettier --write .",
     "check": "prettier . --check && biome lint && tsc"
